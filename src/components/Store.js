@@ -7,10 +7,13 @@ import {
   Stack,
   Image,
   Button,
+  itemList,
 } from '@chakra-ui/react';
 
 
 export default function Store(props) {
+
+
   var open;
   var color;
   if (props.res>=13){
@@ -21,6 +24,8 @@ export default function Store(props) {
   
   }
   return (
+
+
     <Center py={12}>
       <Box
         role={'group'}

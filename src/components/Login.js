@@ -1,9 +1,10 @@
-import { Input, Button } from '@chakra-ui/react'
-import React, { useState } from 'react';
+import { Button, Input } from '@chakra-ui/react'
+import React, { useState } from 'react'
 
-function Login() {
+function login () {
 
-    const [input, setInput] = useState({
+
+const [input, setInput] = useState({
     username: '',
     password: '',
     // confirmPassword: ''
@@ -64,7 +65,7 @@ function Login() {
  
   return (
     <div className="Login">
-      <h4>LogIn </h4>
+      <h4>LogIn</h4>
       
  
         <Input
